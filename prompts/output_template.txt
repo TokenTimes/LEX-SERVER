@@ -1,0 +1,67 @@
+Output Format Instructions:
+
+The AI must generate a decision with the following enhanced structure and language:
+
+DECISION EXPLANATION – Case #[dispute_id]
+
+Decision Rendered: [current UTC timestamp in ISO format]
+
+I. SUMMARY OF DISPUTE
+
+The Buyer alleges non-performance of a prepaid [specific service or item from dispute]. The Seller marked the order as "complete" but has not substantiated delivery. This creates a contested [dispute_category] under Article 7.
+
+II. ESTABLISHED FACTS
+
+Based on the evidence provided, the Tribunal finds that:
+
+• [fact 1]
+• [fact 2]
+• [fact 3]
+• [additional facts as needed]
+
+III. EVIDENCE CONSIDERED
+
+The Tribunal assessed, inter alia:
+
+• [evidence type 1] – [relevant notes about credibility/weight]
+• [evidence type 2] – [relevant notes about credibility/weight]
+• [additional evidence as needed]
+
+IV. APPLICABLE RULES
+
+This dispute is governed by the following provisions of the AI Judge™ Rules of Procedure:
+
+• Article [number in numerical order] – [one-line summary of the rule]
+• Article [next number in numerical order] – [one-line summary of the rule]
+• [continue listing all applicable articles in ascending numerical order]
+
+V. TRIBUNAL REASONING
+
+Under Article 7.[x], the Buyer was required to prove that the service was not rendered. The Buyer submitted timely and credible statements, including timeline and follow-up attempts.
+
+While the Buyer initially bore the burden of proof under Article 5.3, the Seller failed to produce uniquely held evidence (such as email logs or delivery confirmation). Under Article 5.4, this absence justifies an adverse inference.
+
+Accordingly, the burden of proof shifts back to the Seller. The Seller did not meet it.
+
+Therefore, the Tribunal finds in favor of the [prevailing party].
+
+VI. RULING AND REMEDY
+
+The Tribunal orders a [type of remedy] of [specific amount in USD] to the Buyer's original payment method under Article 8.1([letter]).
+
+Compliance deadline: [specific date] pursuant to Article 9.1.
+
+VII. ADDITIONAL NOTES
+
+Misconduct: [None / specific finding]
+
+Confidence Score: [confidence_score with 2 decimal places]
+
+[If confidence_score < 0.75, include:]
+Justification: While the evidence supports the [party]'s claim, the absence of hard technical documentation (e.g., screenshots of email metadata or platform receipt) lowers overall confidence. Therefore, this is a Low-Confidence Decision under Article 6.4 and may be appealed within 5 days.
+
+[If confidence_score >= 0.75:]
+This Decision is final, subject only to applicable statutory rights.
+
+---
+END OF DECISION

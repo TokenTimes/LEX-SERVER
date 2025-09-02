@@ -1,0 +1,541 @@
+AI JUDGE™ RULES OF PROCEDURE FOR LOW-VALUE eCOMMERCE DISPUTES
+
+
+
+(Authoritative Version 3.2 – effective 25 June 2025)
+
+
+
+⸻
+
+
+
+Recitals
+
+
+
+A. These Rules are promulgated by the AI Judge™ Tribunal (“Tribunal”) under the parties’ express agreement—recorded during checkout or later opt-in—to submit any dispute whose total contested value does not exceed one-thousand United States dollars (USD 1 000), or the equivalent in the original payment currency, to binding automated adjudication.
+
+B. The Rules form a self-contained, enforceable, and transparent legal framework that reflects common online-marketplace practices and balances the interests of Buyers and Sellers while ensuring rapid, proportionate, and privacy-respectful redress.
+
+C. Where mandatory provisions of the law of the Buyer’s habitual residence afford greater consumer protection, those provisions prevail for that Buyer alone; otherwise these Rules apply exclusively.
+
+
+
+⸻
+
+
+
+Table of Contents
+
+Article 1 — Definitions
+
+Article 2 — Scope and Hierarchy of Norms
+
+Article 3 — Consent and Commencement
+
+Article 4 — Pleadings and Service
+
+Article 5 — Evidence and Burden of Proof
+
+Article 6 — Procedure and Deliberation
+
+Article 7 — Special Provisions by Category of Dispute
+
+Article 8 — Catalogue of Remedies
+
+Article 9 — Compliance and Enforcement
+
+10. Article 10 — Correction and Appeal
+
+11. Article 11 — Fraud and Sanctions
+
+12. Article 12 — Confidentiality and Data Protection
+
+13. Article 13 — Record-Keeping and Audit
+
+14. Article 14 — Amendments, Severability, and Governing Law
+
+15. Article 15 — Late Claims and Deadline Exceptions
+
+16. Article 16 — Settlement Before Decision
+
+17. Article 17 — Misleading Conduct and Partial Bad Faith
+
+⸻
+
+
+
+Article 1 — Definitions
+
+For purposes of these Rules, the terms below bear the following meanings; singular includes plural and vice-versa.
+
+Buyer – a natural or legal person that has paid for an Item or Service.
+
+Seller – a natural or legal person that has received payment and undertakes to supply an Item or Service.
+
+Platform – the e-commerce website, mobile app, or payment facilitator through which the transaction was concluded and which integrates the Tribunal’s API.
+
+Item – any movable, tangible good identified in the order confirmation.
+
+Service – any intangible performance, licence, subscription, or digital content provided for a fee.
+
+Delivery Window – the period from the earliest estimated delivery date to the latest guaranteed delivery date shown at checkout.
+
+Claim – a written demand for relief submitted pursuant to Article 3.
+
+Decision – a written determination rendered by the Tribunal disposing of a Claim.
+
+Remedy – the relief granted in a Decision, as listed in Article 8.
+
+10. Proof of Delivery (POD) – a carrier-issued electronic record marked delivered that includes carrier name, tracking number, timestamp, and geolocation or signature data.
+
+11. Material Defect – a fault that renders an Item unusable for its ordinary purpose or deviates materially from the Seller’s description or marketing images.
+
+12. Low-Confidence Decision – a Decision whose internal confidence score is below 0.60.
+
+13. Business Day – any day other than Saturday, Sunday, or an official public holiday in New York, USA, unless the Platform defines a more buyer-favourable calendar.
+
+14. Fraud Ledger – the internal register maintained under Article 11 that records misconduct findings.
+
+15. Personalised Item – goods produced to the Buyer’s unique specification (for example, engraved or printed to order).
+
+16. Perishable Item – goods with a shelf-life of thirty (30) days or less or requiring temperature control.
+
+17. Counterfeit Item – goods that infringe intellectual-property rights or misrepresent their origin or brand.
+
+18. Subscription Service – automatically renewing access to digital content or functionality, cancellable by the Buyer.
+
+19. Late-Claim Petition – a procedural filing under Article 15 requesting an extension for a missed deadline based on a justified cause.
+
+20. Tier I Warning – a non-penal entry in the Fraud Ledger reflecting lesser misconduct recorded under Article 17.
+
+
+
+⸻
+
+
+
+Article 2 — Scope and Hierarchy of Norms
+
+
+
+2.1 Monetary Ceiling. The Tribunal hears only Claims whose combined disputed amount—including item price, shipping, taxes, and platform fees—does not exceed USD 1 000 or the equivalent captured at payment.
+
+
+
+2.2 Covered Dispute Categories. The Tribunal has jurisdiction over:
+
+ (a) Item not received; (b) Item defective or damaged; (c) Incorrect Item sent; (d) Partial shipment or missing components; (e) Late delivery; (f) Service not rendered; (g) Unauthorized charge; (h) Buyer fraud or abuse; (i) Breach of stated cancellation or refund policy; (j) Counterfeit Item; (k) Warranty or functional failure within ninety (90) days; (l) Subscription Service cancellation errors; and (m) Digital-content delivery or activation failure.
+
+
+
+2.3 Excluded Matters. Requests for punitive damages, personal-injury compensation, real-property remedies, or criminal adjudications are inadmissible.
+
+
+
+2.4 Hierarchy. Mandatory consumer or data-protection statute prevails over these Rules; these Rules prevail over Platform policy; Platform policy prevails over inconsistent pre-printed Seller terms.
+
+
+
+⸻
+
+
+
+Article 3 — Consent and Commencement
+
+
+
+3.1 Consent is recorded through a standalone checkbox at checkout or a post-transaction opt-in link referencing these Rules.
+
+
+
+3.2 The Claimant starts proceedings by submitting a Statement of Claim within the limitation period specified in Article 7 and affirming its truthfulness.
+
+
+
+3.3 Upon receipt, the Tribunal assigns a dispute ID, opens a secure E-Locker for document exchange, and notifies the opposing party through the Platform’s messaging system and registered e-mail.
+
+
+
+⸻
+
+
+
+Article 4 — Pleadings and Service
+
+
+
+4.1 A Statement of Claim must include:
+
+ (i) the order number; (ii) the dispute category in Article 2.2; (iii) a clear factual narrative not exceeding two-thousand words; (iv) the specific Remedy sought; (v) a list of supporting evidence files (order receipts, tracking screenshots, chat logs).
+
+
+
+4.2 The Respondent files a Statement of Defence within seventy-two (72) hours of notice; the Tribunal may grant a single forty-eight-hour extension for good cause.
+
+
+
+4.3 Any document uploaded to the E-Locker is deemed served immediately; the Platform relays automated notifications.
+
+
+
+⸻
+
+
+
+Article 5 — Evidence and Burden of Proof
+
+
+
+5.1 All evidence files must carry a SHA-256 hash and metadata (upload time, file type, original source URL or device).
+
+
+
+5.2 Admissible evidence includes—without limitation—carrier tracking logs, delivery photos with EXIF data, platform order screenshots, payment-gateway logs, API-verified activation tokens, and customer-service chat transcripts.
+
+
+
+5.3 The party asserting a fact bears the burden of proving that fact by a preponderance of evidence, unless these Rules impose a higher standard or shift the burden because only the other party controls the data (for example, warehouse scan logs).
+
+
+
+5.4 Where a party fails to produce uniquely held information after request, the Tribunal may draw an adverse inference.
+
+
+
+⸻
+
+
+
+Article 6 — Procedure and Deliberation
+
+
+
+6.1 Proceedings are paper-only; the Tribunal may pose written clarifying questions through the E-Locker.
+
+
+
+6.2 The Tribunal issues a Decision within seventy-two (72) hours after pleadings close, extendable once to a maximum of one-hundred-twenty (120) hours for multi-item or technically complex orders.
+
+
+
+6.3 Each Decision states: (i) the established facts; (ii) the governing Rule provisions; (iii) the calculated confidence score; and (iv) the ordered Remedy with deadlines.
+
+
+
+6.4 A Decision with a confidence score below 0.60 is deemed Low-Confidence and may be appealed without fee under Article 10. The method for calculating the confidence score is maintained in a separately issued Technical Annex, which may be revised periodically without amending these Rules.
+
+
+
+⸻
+
+
+
+Article 7 — Special Provisions by Category of Dispute
+
+
+
+7.1 Item Not Received (INR). The Buyer files within thirty (30) days after the Delivery Window. If the Seller fails to supply POD matching the Buyer’s address, the Tribunal orders a full refund or free replacement.
+
+
+
+7.2 Item Defective or Damaged. The Buyer files within seventy-two (72) hours of carrier delivery and uploads at least two clear photos or a video showing the defect and the shipping label. Valid Seller defences include pre-shipment quality-control scans or an accepted warranty disclaimer.
+
+
+
+7.3 Incorrect Item Sent. The Buyer submits photos of the received item beside the packing slip or SKU label. A Seller can rebut with warehouse pick-list and outbound-scan records. In the absence of such proof, the Buyer receives a prepaid return label plus refund or replacement.
+
+
+
+7.4 Partial Shipment. For missing parts or accessories, the Seller must provide separate tracking numbers or inventory release logs. Otherwise, the Buyer receives a proportionate refund plus lost shipping costs.
+
+
+
+7.5 Late Delivery. When delivery exceeds the Delivery Window, the Buyer is entitled to a shipping-fee refund of at least USD 3 or may refuse delivery for a full refund if delay exceeds eight (8) calendar days.
+
+
+
+7.6 Service Not Rendered. The Buyer provides the order receipt and dated messages requesting performance. Absent a completed-service log from the Seller, the Tribunal refunds the unperformed portion.
+
+
+
+7.7 Unauthorized Charge. Within sixty (60) days of the debit, the Buyer submits a bank-statement screenshot. The Seller must show AVS/CVV match or 3-D Secure proof. If authentication fails, the charge is reversed.
+
+
+
+7.8 Buyer Fraud or Abuse. The Seller bears a clear-and-convincing burden to prove serial false claims (for example, three denied INR claims in twelve months); success leads to dismissal and Fraud Ledger entry.
+
+
+
+7.9 Policy Violation. To enforce a “no-refund” policy, the Seller must show the policy was presented above the purchase button and expressly accepted by the Buyer; otherwise the limitation is void.
+
+
+
+7.10 Counterfeit Item. Brand-holder takedown notices, serial-number mismatches, or lab tests shift the burden to the Seller to prove authenticity. Failure leads to refund and compulsory disposal.
+
+
+
+7.11 Warranty or Early Failure. Failures within ninety (90) days of delivery that are covered by an express warranty oblige the Seller to repair, replace, or refund. Diagnostic videos or technician reports satisfy the Buyer’s evidentiary burden.
+
+
+
+7.12 Subscription Service Cancellation. If billing continues after Buyer cancellation, screenshots of cancellation confirmation shift the burden to the Seller. Unused days are refunded and auto-billing stopped.
+
+
+
+7.13 Digital-Content Delivery Failure. The Buyer must show two unsuccessful activation attempts on devices meeting minimum system requirements. The Seller must supply activation or DRM-server logs. Proven failure leads to refund or a working licence key.
+
+
+
+7.14 Perishable and Personalised Items. For perishable items, the Buyer uploads photos within twenty-four (24) hours of carrier delivery. Personalised goods are refundable only for misprints, sizing errors beyond 5 %, or latent defects.
+
+
+
+⸻
+
+
+
+Article 8 — Catalogue of Remedies
+
+
+
+8.1 The Tribunal may order:
+
+(a) Full refund of item price and original shipping to the original payment method;
+
+(b) Refund upon return, Seller providing a prepaid, trackable label;
+
+(c) Replacement shipment of equivalent or better goods with tracked shipping;
+
+(d) Partial refund proportionate to diminished value;
+
+(e) Repair credit not exceeding fifty percent (50 %) of price or USD 150, whichever is lower, payable upon proof of repair;
+
+(f) Store credit where the Buyer opts and the Seller consents;
+
+(g) Denial of relief where the claim fails;
+
+(h) Administrative sanction recorded in the Fraud Ledger;
+
+(i) Disposal directive requiring photographic proof of destruction or recycling.
+
+
+
+8.2 Where both parties contributed to the loss, monetary Remedies are apportioned by fault percentage.
+
+
+
+⸻
+
+
+
+Article 9 — Compliance and Enforcement
+
+
+
+9.1 Refunds must post to the Buyer’s payment method within five (5) Business Days; replacements must be accepted by a carrier within seven (7) Business Days.
+
+
+
+9.2 The Platform’s API must allow the Tribunal to verify refund transaction IDs and shipping-label scans automatically.
+
+
+
+9.3 Non-compliance triggers immediate account freeze, deduction from escrow or balance, and may be reported to consumer-credit agencies as permitted by law.
+
+
+
+⸻
+
+
+
+Article 10 — Correction and Appeal
+
+
+
+10.1 Clerical or calculation errors may be corrected on motion filed within two (2) Business Days of the Decision.
+
+
+
+10.2 A party may appeal within five (5) days on grounds of (i) Low-Confidence Decision, (ii) new evidence that could not reasonably be submitted earlier, or (iii) manifest rule misapplication.
+
+
+
+10.3 Appeals go to an independent algorithmic panel. If its confidence is also below 0.60, either party may once per calendar year escalate to a three-lawyer panel by prepaying the fee; the losing party ultimately bears the cost.
+
+
+
+10.4 The appellate Decision is final, subject only to non-waivable statutory remedies.
+
+
+
+⸻
+
+
+
+Article 11 — Fraud and Sanctions
+
+
+
+11.1 Submitting forged or materially altered evidence results in immediate claim dismissal and entry in the Fraud Ledger for twenty-four (24) months.
+
+
+
+11.2 Four (4) substantiated abusive claims or defences in any twenty-four-month period cause a platform-wide account ban for the same duration.
+
+
+
+11.3 Filing a payment-processor chargeback contrary to a binding Decision authorises the Platform to suspend the filer’s account and debit an administrative fee of ten percent (10 %) of the disputed amount.
+
+
+
+⸻
+
+
+
+Article 12 — Confidentiality and Data Protection
+
+
+
+12.1 Pleadings, evidence, and Decisions are confidential except where disclosure is compelled by law or made in anonymised statistical form.
+
+
+
+12.2 Evidence is encrypted in transit and at rest. Files are retained two (2) years after closure; hashes and audit logs are retained five (5) years.
+
+
+
+12.3 Each party may request a machine-readable export of its personal data and the Decision’s explanation log in accordance with applicable data-protection laws.
+
+
+
+⸻
+
+
+
+Article 13 — Record-Keeping and Audit
+
+
+
+13.1 The Tribunal’s system logs every API call, evidence access, and rule invocation with immutable timestamps.
+
+
+
+13.2 An independent auditor annually reviews a statistically significant sample of cases and publishes an anonymised compliance report.
+
+
+
+⸻
+
+
+
+Article 14 — Amendments, Severability, and Governing Law
+
+
+
+14.1 Substantive amendments require thirty (30) days’ advance notice; urgent security patches take effect immediately for new disputes.
+
+
+
+14.2 If any provision is held unenforceable, the remainder of the Rules remains in force.
+
+
+
+14.3 Unless prohibited by mandatory local law, these Rules and any Decision are governed by the laws of the State of New York, USA, excluding its conflict-of-laws rules and the United Nations Convention on Contracts for the International Sale of Goods.
+
+
+
+⸻
+
+
+
+Article 15 — Late Claims and Deadline Exceptions
+
+
+
+15.1 Purpose. This Article allows limited deadline relief when a party misses a filing date for reasons beyond its control.
+
+
+
+15.2 Justifiable Causes. Acceptable reasons are: (a) documented medical incapacity or hospitalisation; (b) natural disaster or comparable force-majeure event; (c) carrier-verified rural or remote delivery delaying Item receipt; (d) platform-wide outage or payment-gateway failure posted on an official status page; or (e) government-mandated internet shutdown.
+
+
+
+15.3 Supporting Proof. A Late-Claim Petition must include (i) a dated narrative under 500 words and (ii) contemporaneous evidence such as medical certificates, tracking logs, status-page screenshots, or system timestamps.
+
+
+
+15.4 Grace Period. If granted, the missed deadline is extended once by no more than seven (7) calendar days.
+
+
+
+15.5 Usage Limit. A party may rely on this Article no more than twice in any rolling twelve-month period.
+
+
+
+15.6 Procedure. The petition must be filed within forty-eight (48) hours after the original deadline lapses. The opposing party may respond within twenty-four (24) hours. The Tribunal’s ruling is final.
+
+
+
+⸻
+
+
+
+Article 16 — Settlement Before Decision
+
+
+
+16.1 Settlement Window. Parties may settle a dispute at any time after the Statement of Claim is filed and before the Tribunal renders a Decision.
+
+
+
+16.2 Submission. Settlement requires a joint declaration in the E-Locker stating (i) the dispute ID, (ii) the agreed monetary amounts, return or replacement obligations, and completion dates, and (iii) digital signatures or verifiable click-consents from both parties.
+
+
+
+16.3 Binding Effect. Once the Tribunal electronically acknowledges the declaration, the settlement has the same force and effect as a Decision.
+
+
+
+16.4 Enforcement. Non-performance triggers Article 9 compliance measures and potential Fraud Ledger entry. The compliant party may request conversion of the settlement into a formal Decision.
+
+
+
+16.5 Withdrawal Before Acknowledgement. Either party may lodge a Notice of Withdrawal prior to Tribunal acknowledgement. Proceedings then resume at the stage where they paused, and all evidence remains on record.
+
+
+
+16.6 Confidentiality. Settlement terms carry the same confidentiality protections as Decisions unless both parties waive them in writing.
+
+
+
+⸻
+
+
+
+Article 17 — Misleading Conduct and Partial Bad Faith
+
+
+
+17.1 Definition. Misleading Conduct means omitting key facts, exaggerating losses, or selectively presenting evidence to create a materially false impression, without fabricating documents.
+
+
+
+17.2 Prerequisite. The base claim or defence must still be proven on the balance of probabilities for this Article to apply.
+
+
+
+17.3 Sanctions. The Tribunal may: (a) reduce the party’s Remedy by up to twenty-five percent (25 %); (b) reallocate up to twenty-five percent (25 %) of adjudication fees to that party; and (c) record a Tier I Warning in the Fraud Ledger.
+
+
+
+17.4 Enhanced Reduction. Greater reductions are allowed only when Misleading Conduct coincides with sanctionable behaviour under Article 11.
+
+
+
+17.5 Decision Rationale. The Tribunal states the factual basis for the sanction, the reduction percentage, and the adjusted Remedy in the Decision.
+
+
+
+17.6 Effect on Merits. Misleading Conduct does not, by itself, invalidate an otherwise successful claim or defence.
